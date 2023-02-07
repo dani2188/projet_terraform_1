@@ -1,7 +1,7 @@
 # projet_terraform_1
 
-#exo 1:
-Visualisation des dépendences avec la commande: $ terraform graph
+# exo 1:
+### Visualisation des dépendences avec la commande: $ terraform graph
 
 digraph {
         compound = "true"
@@ -28,7 +28,7 @@ Apply complete! Resources: 1 added, 0 changed, 1 destroyed.
 Outputs:
 public_ip = "terraform-20230207152430174400000001"
 
-# Visualisation des dépendences avec la commande: $ terraform graph
+### Visualisation des dépendences avec la commande: $ terraform graph
 $ terraform graph
 digraph {
         compound = "true"
