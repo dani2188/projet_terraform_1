@@ -1,6 +1,6 @@
 # projet_terraform_1
+Visualisation des dépendences avec la commande: $ terraform graph
 
-$ terraform graph
 digraph {
         compound = "true"
         newrank = "true"
