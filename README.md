@@ -40,3 +40,11 @@ digraph {
                 "[root] root" -> "[root] output.public_ip (expand)"                "[root] root" -> "[root] provider[\"registry.terraform.io/hashicorp/aws\"] (close)"
         }
 }
+
+## ex4: 
+
+Apply complete! Resources: 5 added, 1 changed, 0 destroyed.
+
+Outputs:
+
+public_ip = "terraform-asg-example-1991069036.us-west-2.elb.amazonaws.com"
